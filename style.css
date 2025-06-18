@@ -48,7 +48,8 @@ header .espacoLateral {
 
 #campo-pesquisa {
     width: 200px;
-    margin-bottom: -1000px;
+    margin-bottom: -550px;
+    margin-top: -450px;
 }
 
 
@@ -105,17 +106,42 @@ header .espacoLateral {
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 56px;
-    margin-left: -200px ;
+    margin-left: -200px;
     color: #FFFFFF;
-    padding: 25px 20px;
+    padding: 35px 20px;
 }
 
-.conteudo-sobre p{
+.conteudo-sobre p {
     align-items: center;
     margin-left: 60px;
+    font-family: "PlayfairDisplay", italic;
+    font-size: 20px;
 }
 
-.conteudo-sobre h2{
+.conteudo-sobre h2 {
     align-items: center;
-    margin-left: 60px;
+    margin-left: 70px;
+      font-family: "PlayfairDisplay", italic;
 }
+
+#servicos .cards {
+    width: 300px;
+    margin: 20px;
+    padding: 40px 20px;
+    border-radius: 40px;
+    background-color: #919B79;
+    text-align: center;
+    border-radius: 100%;
+    max-width: 100px;
+    width: 100%;
+}
+
+.cards{
+    display: flex;
+}
+
+
+
+
+
+
